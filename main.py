@@ -3,7 +3,8 @@
 
 Writes the line to /output/entry.txt (or $OUTPUT_DIR/entry.txt for local
 runs). Gate: 1-320 characters, exactly one sentence, valid UTF-8, no
-trailing newline. Shorter text wins ties, so the line is kept tight.
+trailing newline. Shorter text wins ties, so the line is kept tight
+(132 chars / 134 bytes at last check).
 """
 
 import os
